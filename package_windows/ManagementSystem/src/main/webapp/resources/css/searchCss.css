@@ -1,0 +1,37 @@
+div.btnSection{
+	width: 700px;
+	height: 30px;
+	margin: 20px;
+    padding: 50px;
+}
+
+span#realTimePrint{
+	font-size: 20px;
+}
+
+.btnSize {
+	width: 180px;
+	height: 70px;
+    font-size: 20px;
+    color: white;
+    background-color: #1b8ebc;
+    padding: 10px;
+    margin-bottom:30px;
+    border-radius: 5px;
+    border: none;
+}
+
+div.tableSection{
+	width: 700px;
+	height: 70px;
+	margin: 20px;
+    padding: 50px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width:150px;
+	height:30px;
+	table-layout:fixed;
+}

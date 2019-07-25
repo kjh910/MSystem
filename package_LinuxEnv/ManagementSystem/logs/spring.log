@@ -1,0 +1,17 @@
+2019-07-14 17:03:45.138  INFO 16910 --- [main] c.m.system.ManagementSystemApplication   : Starting ManagementSystemApplication on gimjeonghun-no-MacBook-Pro.local with PID 16910 (/Users/gjh910/eclipse-workspace/ManagementSystem/target/classes started by gjh910 in /Users/gjh910/eclipse-workspace/ManagementSystem)
+2019-07-14 17:03:45.142  INFO 16910 --- [main] c.m.system.ManagementSystemApplication   : No active profile set, falling back to default profiles: default
+2019-07-14 17:03:46.156  INFO 16910 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7779 (http)
+2019-07-14 17:03:46.188  INFO 16910 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-07-14 17:03:46.189  INFO 16910 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-14 17:03:46.348  INFO 16910 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-07-14 17:03:46.352  INFO 16910 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-07-14 17:03:46.352  INFO 16910 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1162 ms
+2019-07-14 17:03:46.631  INFO 16910 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-14 17:03:46.853  INFO 16910 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7779 (http) with context path ''
+2019-07-14 17:03:46.857  INFO 16910 --- [main] c.m.system.ManagementSystemApplication   : Started ManagementSystemApplication in 2.007 seconds (JVM running for 2.819)
+2019-07-14 17:04:11.585  INFO 16910 --- [http-nio-7779-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-14 17:04:11.585  INFO 16910 --- [http-nio-7779-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-07-14 17:04:11.591  INFO 16910 --- [http-nio-7779-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-07-14 17:04:11.606  INFO 16910 --- [http-nio-7779-exec-1] c.m.system.controller.LoginController    : gogo
+2019-07-14 17:06:30.655  INFO 16910 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-14 17:06:30.658  INFO 16910 --- [RMI TCP Connection(5)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
